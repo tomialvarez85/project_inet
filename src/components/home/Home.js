@@ -17,7 +17,7 @@ function Home() {
 
           <Col className="land-left" md={6} sm={12}>
               <h1>Bienvenidos <br></br> al museo <br></br> <span className="colored"> Nombre del Museo </span></h1>
-              <Link className='btn-visitas' to="/VisitasGuiadas">Ver Visitas</Link>
+              <Link className='btn-visitas' to="/Guided-Visits">Ver Visitas</Link>
               <p className='land-about-us'>Conoce más sobre nosotros <span className='colored'>  aquí </span></p>
           </Col>
 
@@ -31,7 +31,6 @@ function Home() {
 
   );
   
-
 };
 
 export default Home;
