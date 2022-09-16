@@ -11,25 +11,27 @@ import "./ExhibitionCard.css"
 
 function ExhibitionCard(props) {
 
-    const [isOpenModal1, openModal1, closeModal1] = useModal(false);
+    const [isOpenModal, openModal, closeModal] = useModal(false);
 
     return(
 
         <Col  lg={4} md={6} sm={12}>
+        
             <div className="exhib-card">
-                <div className="exhib-photo">
-                    {props.phto}
-                    <button className="exhib-open-btn" onClick={openModal1}></button>    
+                <div className="exhib-img-container">
+                    <img className="exhib-img" alt="" src={props.exhibImage} onClick={openModal}></img>
                 </div>
                 <h3 className="exhib-name">{props.exhibName}</h3>
             </div>
 
-            <Modal isOpen={isOpenModal1} closeModal={closeModal1}>
+            <Modal isOpen={isOpenModal} closeModal={closeModal}>
 
                 <Container className="modal-card" fluid>
                     <Row>
                         <Col lg={5} md={12} sm={12}>
-                            <div className="modal-exhib-photo"></div>
+                            <div className="modal-exhib-photo">
+                                <img className="exhib-img" alt="" src={props.exhibImage} onClick={openModal}></img>
+                            </div>
                         </Col>
 
                         <Col>

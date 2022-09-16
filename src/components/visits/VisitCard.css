@@ -1,13 +1,20 @@
 .visit-card {
     margin-bottom: 100px;
+    max-height: fit-content !important;
+}
+
+.visit-img-container {
+    background-color: var(--grey);
+    margin-bottom: 20px;
+    border-radius: 20px;
+    max-height: 100%;
 }
 
 .visit-img {
-    background-color: var(--grey);
     border-radius: 20px;
+    height: 353px;
     width: 100%;
-    min-height: 200px;
-    height: 100%;
+    object-fit: cover;
 }
 
 .visit-guide {
