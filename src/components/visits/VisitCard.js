@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 
 import Modal from "../modal/Modal";
 import { useModal } from "../modal/useModal";
-import InputDniCard from "./InputDniCard";
+import InscriptionCard from "./InscriptionCard"
 
 import "./VisitCard.css"
 
@@ -43,7 +43,13 @@ function VisitCard(props) {
                     </div>
 
                     <Modal isOpen={isOpenModal} closeModal={closeModal}>
-                        <InputDniCard />
+                        <InscriptionCard 
+                            visitName={props.visitName}
+                            visitGuide={props.visitGuide}
+                            visitLanguage={props.visitLanguage}
+                            visitDate={props.visitDate}
+                            visitPlaces={props.visitPlaces}
+                        />
                     </Modal>
                 </Col>
             </Row>

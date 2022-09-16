@@ -23,7 +23,7 @@ function NavBar() {
               <Nav.Link className="nav-link" href="/Maps">Mapas</Nav.Link>
               <Nav.Link className="nav-link" href="/Exhibitions">Exhibiciones</Nav.Link>
               <Nav.Link className="nav-link" href="/Guided-Visits">Visitas Guiadas</Nav.Link>
-              <Nav.Link className="nav-link" href="/About-Us">Sobre Nosotros</Nav.Link>
+              <Nav.Link className="nav-link" href="/About-Us">Sobre el Museo</Nav.Link>
             </Nav>
             
           </Navbar.Collapse>

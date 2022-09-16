@@ -17,6 +17,7 @@ function Maps() {
       />
 
       <div className='maps'>
+        <h2>Recorrido del Museo</h2>
         <img className='map-image' src={Mapa1} alt="mapa1"></img>
         <img className='map-image' src={Mapa2} alt="mapa1"></img>
       </div>

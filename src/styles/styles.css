@@ -88,11 +88,16 @@ p {
     color: #fff;
     font-size: 20px;
     font-weight: 600;
+    text-decoration: none;
     border: none;
     border-radius: 10px;
     box-sizing: border-box;
     height: 50px;
     transition: all .3s ease;
+}
+
+.button:hover {
+    background-color: #FFCB46;
 }
 
 

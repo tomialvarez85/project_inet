@@ -14,14 +14,11 @@
 }
 
 .btn-visitas{
-    background-color: var(--main-color);
-    color: #FFFFFF;
-    border-radius: 10px;
     font-weight: 600;
     font-size: 20px;
-    text-decoration: none;
     width: fit-content;
-    padding: 15px 25px;
+    padding: 15px 25px !important;
+    height: unset !important;
     margin: 20px 0;
 }
 
