@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Container from 'react-bootstrap/Container';  
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -21,6 +23,7 @@ function NavBar() {
               <Nav.Link className="nav-link" href="/Maps">Mapas</Nav.Link>
               <Nav.Link className="nav-link" href="/Exhibitions">Exhibiciones</Nav.Link>
               <Nav.Link className="nav-link" href="/Guided-Visits">Visitas Guiadas</Nav.Link>
+              <Nav.Link className="nav-link" href="/About-Us">Sobre Nosotros</Nav.Link>
             </Nav>
             
           </Navbar.Collapse>

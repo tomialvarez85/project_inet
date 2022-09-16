@@ -13,7 +13,7 @@
     height: 100%;
 }
 
-.exhib-photo {
+.exhib-img-container {
     background-color: var(--grey);
     border-radius: 20px;
     margin-bottom: 20px;
@@ -21,14 +21,26 @@
     height: 350px;
 }
 
+.exhib-img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
 .exhib-name {
     max-width: 300px;
+}
+
+
+.modal-card {
+    min-width: 90vw;
 }
 
 .modal-exhib-photo {
     background-color: var(--grey);
     border-radius: 20px;
     width: 100%;
-    min-height: 400px;
-    height: 100%;
+    height: 450px;
 }
